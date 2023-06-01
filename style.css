@@ -1,0 +1,79 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-self: center;
+    background-color: #e1bee7;
+    border-radius: 25px;
+    padding:40px 40px;
+    width: 50%;
+    height: auto;
+    align-self: center;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    font-family:'Righteous',monospace ;
+    font-size: 28px;
+    color: #9c27b0;
+    text-shadow:  2px 2px rgb(209, 130, 143);
+    padding: 4px;
+}
+#quote{
+    text-align: center;
+    color: #ba68c8;
+    font-size: 18px;
+    font-family:monospace ;
+    padding: 20px;
+}
+#writter{
+    text-align: right;
+    color: #ba68c8;
+    font-size: 18px;
+    font-family:'Pacifico',monospace ;
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(198, 197, 197);
+}
+
+.button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 4px;
+    color: white;
+}
+.button i {
+    background-color: #9c27b0;
+    border:1px solid #e1bee7 ;
+    border-radius: 25px;
+    padding: 12px;
+    color: white;
+}
+.button i:hover{
+    background-color: #e1bee7;
+    border: 1px solid #9c27b0;
+    color: #9c27b0;
+    cursor: pointer;
+}
+
+.button div:nth-child(2){
+    background-color: #9c27b0;
+    border:1px solid #e1bee7 ;
+    border-radius: 25px;
+    padding: 12px 15px;
+}
+
+.button div:nth-child(2):hover{
+    background-color: #e1bee7;
+    border: 1px solid #9c27b0;
+    color: #9c27b0;
+    cursor: pointer;
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 70%;
+    }
+}
